@@ -28,4 +28,4 @@ printf("%s", buf);
 cTalkRecv(s, buf, buflen);
 printf("%s", buf");
 
-Assuming that all the data is sent and received without losing any packets, this is guaranteed to print "test" then "test2".
+Assuming that all the data is sent and received in order and without losing any packets, this is guaranteed to print "test" then "test2".
