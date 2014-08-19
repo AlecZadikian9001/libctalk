@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1E6BE92199AEBF500531413 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E1E6BE91199AEBF500531413 /* main.c */; };
+		E1E6BE92199AEBF500531413 /* ctalkTest.c in Sources */ = {isa = PBXBuildFile; fileRef = E1E6BE91199AEBF500531413 /* ctalkTest.c */; };
 		E1E6BE94199AEBF500531413 /* libctalk.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1E6BE93199AEBF500531413 /* libctalk.1 */; };
+		E1E6BE9C199AED0D00531413 /* ctalk.c in Sources */ = {isa = PBXBuildFile; fileRef = E1E6BE9B199AED0D00531413 /* ctalk.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,10 @@
 
 /* Begin PBXFileReference section */
 		E1E6BE8E199AEBF500531413 /* libctalk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libctalk; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1E6BE91199AEBF500531413 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E1E6BE91199AEBF500531413 /* ctalkTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ctalkTest.c; sourceTree = "<group>"; };
 		E1E6BE93199AEBF500531413 /* libctalk.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = libctalk.1; sourceTree = "<group>"; };
+		E1E6BE9A199AED0200531413 /* ctalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctalk.h; sourceTree = "<group>"; };
+		E1E6BE9B199AED0D00531413 /* ctalk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ctalk.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +63,9 @@
 		E1E6BE90199AEBF500531413 /* libctalk */ = {
 			isa = PBXGroup;
 			children = (
-				E1E6BE91199AEBF500531413 /* main.c */,
+				E1E6BE91199AEBF500531413 /* ctalkTest.c */,
+				E1E6BE9A199AED0200531413 /* ctalk.h */,
+				E1E6BE9B199AED0D00531413 /* ctalk.c */,
 				E1E6BE93199AEBF500531413 /* libctalk.1 */,
 			);
 			path = libctalk;
@@ -117,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E6BE92199AEBF500531413 /* main.c in Sources */,
+				E1E6BE92199AEBF500531413 /* ctalkTest.c in Sources */,
+				E1E6BE9C199AED0D00531413 /* ctalk.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +233,7 @@
 				E1E6BE99199AEBF500531413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
