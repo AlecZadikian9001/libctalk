@@ -9,6 +9,8 @@
 #ifndef libctalk_ctalk_h
 #define libctalk_ctalk_h
 
+#include <stddef.h> // Some systems require this.
+
 /*
 These functions send and receive individual "messages" (arrays of bytes of any value) preceded by headers containing variable length quantities used to share the length in bytes of each message. Messages are guaranteed to be received separately and in completeness by individual calls to cTalkRecv on the receiving end. Messages sent by cTalkSend MUST be received by cTalkRecv in order to be properly interpreted, and cTalkRecv will only properly receive data sent by cTalkSend. They return the number of bytes sent or received, or 0 if there is an error (see below).
 */
